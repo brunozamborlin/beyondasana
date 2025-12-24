@@ -9,40 +9,40 @@
   --radius-lg: var(--radius);
   --radius-xl: calc(var(--radius) + 4px);
 
-  /* Earthy Yoga Theme Colors */
-  --color-background: hsl(30 25% 97%);      /* Warm Off-White */
-  --color-foreground: hsl(20 10% 20%);      /* Deep Brown */
+  /* Soft Peach Yoga Theme Colors */
+  --color-background: hsl(30 30% 97%);      /* Warm Cream */
+  --color-foreground: hsl(20 15% 25%);      /* Warm Brown */
 
   --color-card: hsl(0 0% 100%);
-  --color-card-foreground: hsl(20 10% 20%);
+  --color-card-foreground: hsl(20 15% 25%);
 
   --color-popover: hsl(0 0% 100%);
-  --color-popover-foreground: hsl(20 10% 20%);
+  --color-popover-foreground: hsl(20 15% 25%);
 
-  --color-primary: hsl(15 45% 45%);         /* Terracotta */
-  --color-primary-foreground: hsl(0 0% 100%);
+  --color-primary: hsl(22 35% 66%);         /* Soft Peach */
+  --color-primary-foreground: hsl(20 20% 20%);
 
-  --color-secondary: hsl(30 30% 90%);       /* Warm Sand */
-  --color-secondary-foreground: hsl(15 40% 35%);
+  --color-secondary: hsl(25 30% 92%);       /* Light Peach */
+  --color-secondary-foreground: hsl(20 30% 40%);
 
-  --color-muted: hsl(30 20% 94%);
-  --color-muted-foreground: hsl(20 10% 45%);
+  --color-muted: hsl(25 25% 94%);
+  --color-muted-foreground: hsl(20 15% 45%);
 
-  --color-accent: hsl(350 30% 45%);         /* Dusty Rose/Burgundy */
+  --color-accent: hsl(18 40% 55%);          /* Deeper Peach/Coral */
   --color-accent-foreground: hsl(0 0% 100%);
 
   --color-destructive: hsl(0 84% 60%);
   --color-destructive-foreground: hsl(0 0% 98%);
 
-  --color-border: hsl(30 15% 88%);
-  --color-input: hsl(30 15% 88%);
-  --color-ring: hsl(15 45% 45%);
+  --color-border: hsl(25 20% 88%);
+  --color-input: hsl(25 20% 88%);
+  --color-ring: hsl(22 35% 66%);
 
-  --color-chart-1: hsl(15 45% 45%);
-  --color-chart-2: hsl(350 30% 45%);
-  --color-chart-3: hsl(30 40% 70%);
-  --color-chart-4: hsl(20 20% 40%);
-  --color-chart-5: hsl(25 35% 50%);
+  --color-chart-1: hsl(22 35% 66%);
+  --color-chart-2: hsl(18 40% 55%);
+  --color-chart-3: hsl(25 35% 75%);
+  --color-chart-4: hsl(20 25% 45%);
+  --color-chart-5: hsl(15 30% 60%);
 
   --font-sans: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   --font-serif: 'Helvetica Neue', Helvetica, Arial, sans-serif;
