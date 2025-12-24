@@ -39,7 +39,7 @@ export function Navbar() {
     <nav
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
         isScrolled
-          ? "bg-white/80 backdrop-blur-md shadow-sm py-2"
+          ? "bg-white/80 backdrop-blur-md shadow-soft py-2"
           : "bg-transparent py-4"
       }`}
     >
@@ -75,13 +75,6 @@ export function Navbar() {
               {link.name}
             </button>
           ))}
-          <Button 
-            onClick={() => scrollToSection("contatti")}
-            variant={isScrolled ? "default" : "secondary"}
-            className="font-medium"
-          >
-            Prenota Ora
-          </Button>
         </div>
 
         {/* Mobile Toggle */}
@@ -99,7 +92,7 @@ export function Navbar() {
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
           exit={{ opacity: 0, y: -20 }}
-          className="absolute top-full left-0 right-0 bg-white shadow-lg p-4 flex flex-col gap-4 md:hidden border-t h-screen"
+          className="absolute top-full left-0 right-0 bg-white shadow-soft-lg p-4 flex flex-col gap-4 md:hidden border-t h-screen"
         >
           {navLinks.map((link) => (
             <button
@@ -110,9 +103,6 @@ export function Navbar() {
               {link.name}
             </button>
           ))}
-          <Button onClick={() => scrollToSection("contatti")} className="w-full mt-2">
-            Prenota Ora
-          </Button>
         </motion.div>
       )}
     </nav>
@@ -122,7 +112,7 @@ export function Navbar() {
       <motion.div 
         initial={{ y: -100 }}
         animate={{ y: 0 }}
-        className="fixed top-[56px] left-0 right-0 z-40 bg-white/95 backdrop-blur shadow-sm md:hidden overflow-x-auto"
+        className="fixed top-[56px] left-0 right-0 z-40 bg-white/95 backdrop-blur shadow-soft md:hidden overflow-x-auto"
       >
         <div className="flex px-4 py-2 gap-4 min-w-max">
           {navLinks.map((link) => (

@@ -29,14 +29,14 @@ export function Section({
     <section 
       id={id} 
       className={cn(
-        "py-20 md:py-32 w-full overflow-hidden", 
+        "py-24 md:py-36 lg:py-40 w-full overflow-hidden", 
         bgColors[background],
         className
       )}
     >
       <div className="container mx-auto px-4">
         {(title || subtitle) && (
-          <div className="max-w-3xl mx-auto text-center mb-16">
+          <div className="max-w-3xl mx-auto text-center mb-20">
             {subtitle && (
               <motion.span 
                 initial={{ opacity: 0, y: 20 }}

@@ -78,43 +78,43 @@ export const courses = [
 
 export const teachers = [
   {
-    name: "Roberta Zamborlin",
-    role: "Founder",
+    name: "Roberta",
+    role: "",
     specialties: ["Vinyasa", "Power Yoga", "Pilates", "Matwork Posturale"],
     bio: "Ho dedicato gran parte della mia gioventù alla danza classica e contemporanea. A Londra ho scoperto lo yoga, approfondendo poi in Sri Lanka e India.",
     image: "/images/insegnanti_images/robi.jpg",
   },
   {
     name: "Silvia B.",
-    role: "Insegnante",
+    role: "",
     specialties: ["Pilates Matwork", "Pilates Attrezzi", "Stretch & Tone"],
     bio: "Professionista della danza e del fitness, unisce arte del movimento e approccio scientifico. Formata alla Rambert School di Londra.",
     image: "/images/insegnanti_images/silvia b.avif",
   },
   {
     name: "Silvia O.",
-    role: "Insegnante",
+    role: "",
     specialties: ["Yoga", "Yin Yoga", "Pilates"],
     bio: "Insegnante certificata CSEN. Il mio obiettivo è aiutare le persone a connettersi con se stesse attraverso il movimento consapevole.",
     image: "/images/insegnanti_images/silvia o.avif",
   },
   {
     name: "Debora",
-    role: "Insegnante",
+    role: "",
     specialties: ["Vinyasa Yoga"],
     bio: "La ginnastica artistica è stata la mia prima scuola. In Indonesia ho completato la formazione in Vinyasa Yoga, arricchita da un approccio somatico.",
     image: "/images/insegnanti_images/debora.avif",
   },
   {
     name: "Annalisa",
-    role: "Insegnante",
+    role: "",
     specialties: ["Hatha Yoga", "Vinyasa Yoga"],
     bio: "Insegnante appassionata che unisce la tradizione dello yoga con un approccio moderno e dinamico.",
     image: "/images/insegnanti_images/annalisa.avif",
   },
   {
     name: "Nicoletta",
-    role: "Insegnante",
+    role: "",
     specialties: ["A.R.P.D.", "Masterstretch"],
     bio: "Insegnante specializzata in Auto Rieducazione Posturale Dinamica e Masterstretch.",
     image: "https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?q=80&w=2070&auto=format&fit=crop", // No specific image found in folder
