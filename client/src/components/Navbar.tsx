@@ -57,7 +57,7 @@ export function Navbar() {
               e.currentTarget.style.display = 'none';
             }}
           />
-          <span className={`font-serif text-xl md:text-2xl font-bold tracking-tight ${isScrolled ? 'text-foreground' : 'text-foreground md:text-white'}`}>
+          <span className={`text-xl md:text-2xl font-black tracking-tight ${isScrolled ? 'text-foreground' : 'text-foreground md:text-white'}`}>
             Beyond Asana
           </span>
         </div>

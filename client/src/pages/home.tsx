@@ -58,7 +58,7 @@ ${formData.message}`;
             viewport={{ once: true }}
             className="prose prose-lg"
           >
-            <h3 className="text-3xl font-serif text-primary mb-6">Il nostro approccio</h3>
+            <h3 className="text-3xl font-black text-primary mb-6">Il nostro approccio</h3>
             <p className="text-muted-foreground leading-relaxed">
               Offriamo diverse classi di Yoga e Pilates, per tutte le età e livelli di esperienza. 
               Unitevi a noi per trovare la vostra pace interiore e migliorare la vostra salute e benessere generale.
@@ -123,7 +123,7 @@ ${formData.message}`;
                     className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                   />
                   <div className="absolute bottom-0 left-0 right-0 p-6 z-20">
-                    <h3 className="text-2xl font-serif text-white font-bold text-shadow-subtle">{course.title}</h3>
+                    <h3 className="text-2xl font-black text-white text-shadow-subtle">{course.title}</h3>
                   </div>
                 </div>
                 <CardContent className="p-6 flex-grow">
@@ -168,7 +168,7 @@ ${formData.message}`;
                    className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                  />
               </div>
-              <h3 className="text-2xl font-serif font-bold text-primary mb-3">{teacher.name}</h3>
+              <h3 className="text-2xl font-black text-primary mb-3">{teacher.name}</h3>
               <p className="text-muted-foreground text-sm leading-relaxed mb-5 line-clamp-3 max-w-xs mx-auto">{teacher.bio}</p>
               <div className="flex flex-wrap gap-2 justify-center">
                 {teacher.specialties.map(spec => (
@@ -196,13 +196,13 @@ ${formData.message}`;
              <table className="w-full text-left border-collapse min-w-[700px]">
                <thead>
                  <tr className="bg-primary/5">
-                   <th className="px-3 py-2.5 font-serif text-primary text-sm sticky left-0 bg-primary/5">Ora</th>
-                   <th className="px-3 py-2.5 font-serif text-foreground font-medium text-xs uppercase tracking-wide">Lun</th>
-                   <th className="px-3 py-2.5 font-serif text-foreground font-medium text-xs uppercase tracking-wide">Mar</th>
-                   <th className="px-3 py-2.5 font-serif text-foreground font-medium text-xs uppercase tracking-wide">Mer</th>
-                   <th className="px-3 py-2.5 font-serif text-foreground font-medium text-xs uppercase tracking-wide">Gio</th>
-                   <th className="px-3 py-2.5 font-serif text-foreground font-medium text-xs uppercase tracking-wide">Ven</th>
-                   <th className="px-3 py-2.5 font-serif text-foreground font-medium text-xs uppercase tracking-wide">Sab</th>
+                   <th className="px-3 py-2.5 font-bold text-primary text-sm sticky left-0 bg-primary/5">Ora</th>
+                   <th className="px-3 py-2.5 font-bold text-foreground text-xs uppercase tracking-wide">Lun</th>
+                   <th className="px-3 py-2.5 font-bold text-foreground text-xs uppercase tracking-wide">Mar</th>
+                   <th className="px-3 py-2.5 font-bold text-foreground text-xs uppercase tracking-wide">Mer</th>
+                   <th className="px-3 py-2.5 font-bold text-foreground text-xs uppercase tracking-wide">Gio</th>
+                   <th className="px-3 py-2.5 font-bold text-foreground text-xs uppercase tracking-wide">Ven</th>
+                   <th className="px-3 py-2.5 font-bold text-foreground text-xs uppercase tracking-wide">Sab</th>
                  </tr>
                </thead>
                <motion.tbody
@@ -246,7 +246,7 @@ ${formData.message}`;
 
                 return (
                   <div key={day} className="rounded-lg overflow-hidden bg-white shadow-soft">
-                    <h3 className="text-sm font-serif font-bold text-white bg-primary px-4 py-2">{day}</h3>
+                    <h3 className="text-sm font-bold text-white bg-primary px-4 py-2">{day}</h3>
                     <div className="divide-y divide-border/30">
                       {dayClasses.map((row, idx) => {
                         const classValue = row[dayKey as keyof typeof row];
@@ -293,7 +293,7 @@ ${formData.message}`;
                           className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                         />
                         <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent flex items-end p-6">
-                          <span className="text-white font-serif text-xl font-bold text-shadow-subtle">{event.title}</span>
+                          <span className="text-white text-xl font-black text-shadow-subtle">{event.title}</span>
                         </div>
                       </CardContent>
                     </Card>
@@ -319,7 +319,7 @@ ${formData.message}`;
         <div className="grid md:grid-cols-2 gap-12 lg:gap-20">
           {/* Contact Info */}
           <div className="space-y-8">
-            <h3 className="text-2xl font-serif text-primary">Siamo qui per te</h3>
+            <h3 className="text-2xl font-black text-primary">Siamo qui per te</h3>
             <p className="text-muted-foreground">
               Hai domande sui nostri corsi o vuoi prenotare una lezione di prova? 
               Compila il modulo o vieni a trovarci.
@@ -435,7 +435,7 @@ ${formData.message}`;
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-3 gap-10 lg:gap-16 mb-12 border-b border-white/10 pb-12">
             <div>
-              <h3 className="text-2xl font-serif font-bold mb-4">Beyond Asana</h3>
+              <h3 className="text-2xl font-black mb-4">Beyond Asana</h3>
               <p className="text-white/70 max-w-xs">
                 Un santuario per il corpo e la mente, dove la pratica dello yoga incontra il benessere olistico.
               </p>

@@ -8,45 +8,45 @@
   --radius-md: calc(var(--radius) - 2px);
   --radius-lg: var(--radius);
   --radius-xl: calc(var(--radius) + 4px);
-  
-  /* Serene Yoga Theme Colors - H S% L% */
-  --color-background: hsl(40 33% 98%);     /* Warm Cream */
-  --color-foreground: hsl(200 15% 25%);    /* Soft Charcoal */
-  
+
+  /* Earthy Yoga Theme Colors */
+  --color-background: hsl(30 25% 97%);      /* Warm Off-White */
+  --color-foreground: hsl(20 10% 20%);      /* Deep Brown */
+
   --color-card: hsl(0 0% 100%);
-  --color-card-foreground: hsl(200 15% 25%);
-  
+  --color-card-foreground: hsl(20 10% 20%);
+
   --color-popover: hsl(0 0% 100%);
-  --color-popover-foreground: hsl(200 15% 25%);
-  
-  --color-primary: hsl(150 15% 35%);       /* Sage Green */
+  --color-popover-foreground: hsl(20 10% 20%);
+
+  --color-primary: hsl(15 45% 45%);         /* Terracotta */
   --color-primary-foreground: hsl(0 0% 100%);
-  
-  --color-secondary: hsl(35 40% 88%);      /* Warm Sand */
-  --color-secondary-foreground: hsl(150 15% 30%);
-  
-  --color-muted: hsl(35 20% 94%);
-  --color-muted-foreground: hsl(200 10% 50%);
-  
-  --color-accent: hsl(15 40% 65%);         /* Terracotta */
+
+  --color-secondary: hsl(30 30% 90%);       /* Warm Sand */
+  --color-secondary-foreground: hsl(15 40% 35%);
+
+  --color-muted: hsl(30 20% 94%);
+  --color-muted-foreground: hsl(20 10% 45%);
+
+  --color-accent: hsl(350 30% 45%);         /* Dusty Rose/Burgundy */
   --color-accent-foreground: hsl(0 0% 100%);
-  
+
   --color-destructive: hsl(0 84% 60%);
   --color-destructive-foreground: hsl(0 0% 98%);
 
-  --color-border: hsl(35 15% 90%);
-  --color-input: hsl(35 15% 90%);
-  --color-ring: hsl(150 15% 35%);
+  --color-border: hsl(30 15% 88%);
+  --color-input: hsl(30 15% 88%);
+  --color-ring: hsl(15 45% 45%);
 
-  --color-chart-1: hsl(150 15% 35%);
-  --color-chart-2: hsl(15 40% 65%);
-  --color-chart-3: hsl(35 40% 70%);
-  --color-chart-4: hsl(200 15% 40%);
-  --color-chart-5: hsl(25 30% 50%);
+  --color-chart-1: hsl(15 45% 45%);
+  --color-chart-2: hsl(350 30% 45%);
+  --color-chart-3: hsl(30 40% 70%);
+  --color-chart-4: hsl(20 20% 40%);
+  --color-chart-5: hsl(25 35% 50%);
 
-  --font-sans: 'DM Sans', sans-serif;
-  --font-serif: 'Playfair Display', serif;
-  
+  --font-sans: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  --font-serif: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
   --radius: 0.5rem;
 }
 
@@ -56,9 +56,16 @@
   }
   body {
     @apply font-sans antialiased bg-background text-foreground;
+    font-weight: 400;
   }
-  h1, h2, h3, h4, h5, h6 {
-    @apply font-serif;
+  h1, h2, h3 {
+    @apply font-sans;
+    font-weight: 900;
+    letter-spacing: -0.02em;
+  }
+  h4, h5, h6 {
+    @apply font-sans;
+    font-weight: 700;
   }
 }
 

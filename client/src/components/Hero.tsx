@@ -41,7 +41,7 @@ export function Hero() {
 
           {/* Main Title */}
           <motion.h1
-            className="text-4xl md:text-6xl lg:text-7xl font-serif font-bold mb-8 leading-tight text-shadow-hero"
+            className="text-4xl md:text-6xl lg:text-7xl font-black mb-8 leading-tight text-shadow-hero"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, delay: 0.5 }}
@@ -79,7 +79,7 @@ export function Hero() {
           >
             <Button
               size="lg"
-              className="bg-white text-primary hover:bg-white/90 text-base px-8 py-6 h-auto font-serif shadow-soft-lg hover:shadow-warm-lg transition-all duration-300"
+              className="bg-white text-primary hover:bg-white/90 text-base px-8 py-6 h-auto font-bold shadow-soft-lg hover:shadow-warm-lg transition-all duration-300"
               onClick={() => document.getElementById('corsi')?.scrollIntoView({ behavior: 'smooth' })}
             >
               Scopri i Corsi

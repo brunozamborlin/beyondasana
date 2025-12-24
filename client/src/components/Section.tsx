@@ -53,7 +53,7 @@ export function Section({
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ delay: 0.1 }}
-                className="text-3xl md:text-5xl font-serif text-foreground font-medium"
+                className="text-3xl md:text-5xl font-black text-foreground"
               >
                 {title}
               </motion.h2>
