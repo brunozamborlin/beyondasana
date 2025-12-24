@@ -81,7 +81,7 @@ export const teachers = [
     name: "Roberta",
     role: "",
     specialties: ["Vinyasa", "Power Yoga", "Pilates", "Matwork Posturale"],
-    bio: "Ho dedicato gran parte della mia gioventù alla danza classica e contemporanea. A Londra ho scoperto lo yoga, approfondendo poi in Sri Lanka e India.",
+    bio: "Dalla danza classica allo yoga, scoperto a Londra e approfondito in Sri Lanka e India.",
     image: "/images/insegnanti_images/robi.jpg",
   },
   {
