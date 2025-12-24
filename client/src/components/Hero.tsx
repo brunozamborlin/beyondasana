@@ -79,7 +79,8 @@ export function Hero() {
           >
             <Button
               size="lg"
-              className="bg-white text-primary hover:bg-white/90 text-base px-8 py-6 h-auto font-bold shadow-soft-lg hover:shadow-warm-lg transition-all duration-300"
+              variant="outline"
+              className="bg-transparent hover:bg-white/10 text-white text-base px-8 py-6 h-auto border-white/40 hover:border-white/60 backdrop-blur-sm transition-all duration-300"
               onClick={() => document.getElementById('corsi')?.scrollIntoView({ behavior: 'smooth' })}
             >
               Scopri i Corsi
